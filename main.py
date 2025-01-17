@@ -49,3 +49,15 @@ print(x)
 #set x = {"roma", "milano" ,"Napoli"}
 
 
+#CASTING 
+#Castare vuol dire cambiare il valore di una variabile come ad esempio un intero convertirlo in una stringa
+#Questo si usa perche in python non si puo concatenare un numero con un testo come ad esempio in Js.
+#Per ovviare a questo problema si usa il Casting in questo modo:
+
+x = "Ciao sono Giorgio , età :  "
+y = str(24)
+
+print(x + y) # ci restituisce "Ciao sono Giorgio , età : 24" in questo modo ho unito un intero ad una stringa.
+
+
+
