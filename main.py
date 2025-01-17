@@ -34,5 +34,18 @@ print (messaggio) #e lo rimando a schermo sul terminale
 x = 10
 print(x)
 
+#TIPI DI DATI: 
+#per capire che valore abbiamo : print (type(valore))
+
+# str: x ="ciao"
+# int: x =20
+# float : x = 20.5
+# bool : x = True , False
+
+# list x = ["roma", "milano" ,"Napoli"]
+# tuple x = ("roma", "milano" ,"Napoli")
+# range x = range(6)
+# dict: x = {"nome" : "Giorgio", "età": 24} rapporto Chiave/Valore
+#set x = {"roma", "milano" ,"Napoli"}
 
 
