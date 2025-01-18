@@ -18,3 +18,12 @@ print (x + y) # Con questa riga di codice concateno x e y.
 print (z.format(18, 2025)) # Il format e utilizzato per concatenare stringhe e enumeri il alternativa al Csating.
 print(g) # escxape serve per mettere qualcosa tra virgolette sia doppie che singole e si usa coosi: \"Parola\"
 
+#BOOLEAN
+a = True
+b = False
+
+if 8 < 10: 
+    print("Sono maggiore di 10")
+else:
+     print("Sono minore di 10")
+
