@@ -104,3 +104,19 @@ while l < 6:
      l += 1
 else: #utlizzazzato come un If
      print("Finish")
+
+#COSTRUTTO FOR
+#Lo utilizzo per recuperare ad esempio tutti gli elementi di una lista.
+lista_citta = ["milano", "roma", "napoli"]
+
+for citta in lista_citta:
+     print(citta)
+
+for c in range(8):
+     if c == 3:
+          continue #oppure break
+     print(c)
+else:
+     print("Ho finito")
+
+
