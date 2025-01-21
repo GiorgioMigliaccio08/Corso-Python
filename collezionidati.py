@@ -70,3 +70,15 @@ print(t)
 del t[0] # Mi elimina l'elemento 0 , se non specifico nulla mi elimina tutta la lista.
 t.clear() # Mi pulisce la lista
 print(t)
+
+# Rimuovere elementi di una lista:
+
+t.remove("Napoli") # Rimuove l'elemento 
+print(t)
+
+t.pop() # Mi va a rimuovere l'ultimo elemento della lista posso anche inserire l'indice nelle parentesi ()
+print(t)
+
+del t[0] # Mi elimina l'elemento 0 , se non specifico nulla mi elimina tutta la lista.
+t.clear() # Mi pulisce la lista
+print(t)
