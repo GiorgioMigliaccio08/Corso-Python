@@ -59,3 +59,4 @@ del t[0] # Mi elimina l'elemento 0 , se non specifico nulla mi elimina tutta la 
 t.clear() # Mi pulisce la lista
 print(t)
 
+#Domani comincia da qui
