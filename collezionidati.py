@@ -65,15 +65,3 @@ u = ["pavia", "padova", "Nicosia"]
 for città in u:
     print(città)
 
-u.remove("Napoli") # Rimuove l'elemento 
-print(t)
-
-u.pop() # Mi va a rimuovere l'ultimo elemento della lista posso anche inserire l'indice nelle parentesi ()
-print(t)
-
-
-u.append("Lercara") # Si aggiunge alla fine
-print(t)
-
-u.insert(1, "torino") # Inserisce l'elemento nella posizione 1
-print(t)
