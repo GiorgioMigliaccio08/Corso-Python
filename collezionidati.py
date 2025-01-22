@@ -59,4 +59,9 @@ del t[0] # Mi elimina l'elemento 0 , se non specifico nulla mi elimina tutta la 
 t.clear() # Mi pulisce la lista
 print(t)
 
-#Domani comincia da qui
+#Ciclare gli elementi : for in , per indice , while e short hand 
+
+u = ["pavia", "padova", "Nicosia"]
+for città in u:
+    print(città)
+
