@@ -71,3 +71,7 @@ for città in u:
 lista_citta = ["pavia", "padova", "Nicosia" , "Prizzi"]
 [print(citta) for citta in lista_citta if citta !="Prizzi"]
 
+# Modificare l'ordine : asc , desc , reverse:
+
+lista_citta.sort() # Ordina la mia lista in ordine alfabetico
+print(lista_citta)
