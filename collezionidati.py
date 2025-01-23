@@ -75,3 +75,8 @@ lista_citta = ["pavia", "padova", "Nicosia" , "Prizzi"]
 
 lista_citta.sort() # Ordina la mia lista in ordine alfabetico
 print(lista_citta)
+
+# Copiare una list con copy():
+
+nuove_citta = lista_citta.copy()
+print (nuove_citta)
