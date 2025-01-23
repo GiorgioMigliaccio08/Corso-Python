@@ -65,3 +65,9 @@ u = ["pavia", "padova", "Nicosia"]
 for città in u:
     print(città)
 
+# List Comprehesion : 
+# sitassi: [espressione for item in lista if condizione == True]
+
+lista_citta = ["pavia", "padova", "Nicosia" , "Prizzi"]
+[print(citta) for citta in lista_citta if citta !="Prizzi"]
+
