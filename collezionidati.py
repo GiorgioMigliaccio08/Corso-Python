@@ -82,3 +82,8 @@ nuove_citta = lista_citta.copy()
 print (nuove_citta)
 
 # Unire pi+ liste insieme _ + , append(), extend()
+
+citta_unite = lista_citta + nuove_citta
+print (citta_unite)
+
+nuove_citta.extend(citta_unite)
