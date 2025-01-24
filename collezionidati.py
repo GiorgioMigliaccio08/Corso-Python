@@ -87,3 +87,46 @@ citta_unite = lista_citta + nuove_citta
 print (citta_unite)
 
 nuove_citta.extend(citta_unite)
+
+
+# TUPLE non sono modificabili utilizzano parentesi ()
+
+tuple = ("Giorgio", "Paolo") # Puo anche essere definita cosi: x= ("giorgio", True , 765)
+
+print(type(tuple)) # se vogliamo riportare il type tuple quando abbiamo un solo valore dobbiamo inserire la virgola
+print (len(tuple)) # mi riporta la luunghezza
+
+print (tuple[0]) # per accedere al tuple
+
+if "Giorgio" in tuple: #verifico che un valore e dentro la mia tuple
+    print("Si esiste")
+
+#Per aggiungere/rimuovere qualcosa da una tuple dobbiamo prima trasformarla in una list ed applicare i suoi metodi
+
+# Per spacchettare una tuple in piu variabili
+
+paesi = ("Palazzo","Prizzi", "Corleone")
+
+(paese1, paese2, paese3) = paesi
+print (paese1)
+print (paese2)
+print (paese3)
+
+#Ciclare gli elementi
+for paese in paesi:
+    print(paese) # oppure for i in range(len(paesi)): print(paese)
+
+#Unire tuple con +
+
+altripaesi = ("Lercara", "Marineo")
+somma = paesi + altripaesi
+
+print(somma)
+
+# Metodi count(), index()
+ 
+quanti = paesi.count("Prizzi")
+print(quanti) # mi conta quante parole Prizzi ci sono
+
+posizione = paesi.index("Corleone")
+print(posizione) # mi dice in ch eposizione e la parola Prizzi 
