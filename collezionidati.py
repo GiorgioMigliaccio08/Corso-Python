@@ -130,3 +130,8 @@ print(quanti) # mi conta quante parole Prizzi ci sono
 
 posizione = paesi.index("Corleone")
 print(posizione) # mi dice in ch eposizione e la parola Prizzi 
+
+
+# SET
+
+set = {"Caio", "Buongiorno", "Bonasera"} # Puo anche essere definito cosi: set= {"giorgio", True , 765}
