@@ -197,3 +197,71 @@ print(intems)
 
 print("nome"in persona) # vado a controllare se ho questa chiave
 
+# Modificare Elementi con [] e update()
+
+persona["nome"] = "Emanuele"
+print(persona)
+
+persona.update({"nome": "Anna"})
+print(persona)
+
+# Aggiungere Elementi con [] e update()
+
+persona["nazionalità"] = "Italiana"
+print(persona)
+
+persona.update({"nazionalità": "Italiana"})
+print(persona)
+
+# Rimuovere elementi con pop(key), popitem(), clear(), del
+
+persona.pop("nazionalità")
+print(persona)
+
+# persona.popitem()  mi elimina l'ultimo valore
+
+# persona.clear()  mi elimina tutto
+
+# del persona["nome"]  mi elimina solo il valore nome
+
+# del persona    mi elimina completamente il dictionary 
+
+
+# Ciclare Elementi : key , values , values(), keys(), items ()
+
+for b in persona:
+    print(b)   # Questo ciclo mi ritorna le chiavi
+
+for n in persona:
+    print(persona[n])  # Questo ciclo mi ritorna i valori
+
+#for b in persona.values():
+    #print(b)   # Questo ciclo mi ritorna i valori
+
+#for b in persona.keys():
+    #print(b)   # Questo ciclo mi ritorna le chiavi
+
+#for b, c in persona.items():
+    #print(b,c)   # Questo ciclo mi ritorna chiavi e valori
+
+
+# Copiare con copy(), dist()
+
+copia_persona = persona.copy()
+print(copia_persona)
+
+#copia_persona = dict(persona)  metodo alternativo a quello di sopra
+
+# Dist annidati
+
+cittadino = {
+    "nome": "Giorgio",
+    "cognome": "Migliaccio",
+    "età": 24,
+    "indirizzo": {
+        "città": "Prizzi",
+        "cap": 99999
+    }
+}
+
+print (cittadino)
