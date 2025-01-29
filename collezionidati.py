@@ -165,3 +165,26 @@ set.clear() # mi pulisce tutto
 # update aggiorna
 # intersection_update() e intersection()  ci restituisce i duplicati
 # symmetric_difference_update() e symmetric_difference() ci tiene tutto tranne i duplicati 
+
+
+# DICTIONARY
+
+# Come crearlo: fare una coppia chiave valore come un oggetto in Js, non ammette duplicati, 
+
+persona = {
+    "nome": "Giorgio",
+    "cognome": "Migliaccio",
+    "età": 24
+}
+
+print(type(persona))
+print(len(persona))
+
+
+# Accedere ai vari elementi del dict: [] , get(), keys(), values(),items(), ovviamente controllare che la chiiave esiste
+
+print(persona["nome"]) # prende la singola chiave
+print(persona.get("nome")) # prende la chiave che mettiamo noi
+
+keys = persona.keys() #Mi prende tutti i valori
+print(keys)
