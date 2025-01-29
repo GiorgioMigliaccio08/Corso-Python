@@ -186,5 +186,14 @@ print(len(persona))
 print(persona["nome"]) # prende la singola chiave
 print(persona.get("nome")) # prende la chiave che mettiamo noi
 
-keys = persona.keys() #Mi prende tutti i valori
+keys = persona.keys() #Mi prende tutte le keys
 print(keys)
+
+valori = persona.values() #Mi prende tutti i valori
+print(valori)
+
+intems = persona.items() # Mi riporta tutte le tuple quante sono le cuppie chiave valore
+print(intems)
+
+print("nome"in persona) # vado a controllare se ho questa chiave
+
