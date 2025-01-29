@@ -135,3 +135,33 @@ print(posizione) # mi dice in ch eposizione e la parola Prizzi
 # SET
 
 set = {"Caio", "Buongiorno", "Bonasera"} # Puo anche essere definito cosi: set= {"giorgio", True , 765}
+# Anche per i set ovviamente possiamo utilizzare len(), type(), set()
+
+# Accedere agli elementi con loop:
+
+for parola in set:
+    print (parola)
+
+# Modificare gli elementi non e possibile , possiamo soltanto aggiungere o rimuovere con add() / update()
+
+set.add("Arrivederci")
+print(set)
+
+set2 = {"Cucu", "Settete"} 
+
+set.update(set2)
+print(set)
+
+# Rimuovere gli elementi 
+set.remove("Settete") #sicuri che ci sia l'elemento, si usa ad esempio per cercare errori
+set.discard("Cucu") #si esegue anche se la parola non ce.
+set.pop() # elimina l'ultima
+set.clear() # mi pulisce tutto
+#poi ce anche del set 
+
+# Posso unire i Set con union(), update(), intersection_update(), intersection(), symmetric_difference_update(), symmetric_difference().
+
+# union crea un nuovo set quindi si usa in una treza variabileescude elementi duplicati
+# update aggiorna
+# intersection_update() e intersection()  ci restituisce i duplicati
+# symmetric_difference_update() e symmetric_difference() ci tiene tutto tranne i duplicati 
