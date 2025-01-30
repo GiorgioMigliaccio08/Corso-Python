@@ -286,3 +286,14 @@ def fai_la_pasta(tipo_pasta, metti_sugo):    #Parametri
         print("prepara il sugo")
 
 fai_la_pasta("Spaghetti", True)  #Argomento 
+
+
+# Parametri di Default
+
+def fai_la_pasta(tipo_pasta = "spaghetti"):     # In questo modo definisco di default il tipo di pasta spaghetti
+    print("metti l'acqua")
+    print("fai bollire")
+    print("Metti" + tipo_pasta)
+
+fai_la_pasta() #quindi in questo campo se lo lascio vuoto mi torna spaghetti , altrimenti lo posso inserire
+
