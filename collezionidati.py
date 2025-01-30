@@ -297,3 +297,10 @@ def fai_la_pasta(tipo_pasta = "spaghetti"):     # In questo modo definisco di de
 
 fai_la_pasta() #quindi in questo campo se lo lascio vuoto mi torna spaghetti , altrimenti lo posso inserire
 
+# Return dei valori: 
+def fai_somma(num1,num2):
+    somma = num1 + num2
+    return somma   #Senza questo return la nostra funzione non puo essere mostrata a schermo
+
+prova_somma = fai_somma(8,8)
+print(prova_somma)
