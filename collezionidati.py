@@ -265,3 +265,15 @@ cittadino = {
 }
 
 print (cittadino)
+print (cittadino["indirizzo"]["cap"]) # si usa per prendere un valore in un dist annidato
+
+
+#FUNZIONI  
+
+def fai_la_pasta():              # In questo modo definisco la funzione
+    print("metti l'acqua")
+    print("fai bollire")
+    print("butta la pasta")
+
+fai_la_pasta()                  # In questo modo la richiamo
+
