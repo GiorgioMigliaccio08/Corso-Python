@@ -277,3 +277,12 @@ def fai_la_pasta():              # In questo modo definisco la funzione
 
 fai_la_pasta()                  # In questo modo la richiamo
 
+# Parametri in funzione
+def fai_la_pasta(tipo_pasta, metti_sugo):    #Parametri          
+    print("metti l'acqua")
+    print("fai bollire")
+    print("Metti" + tipo_pasta)
+    if metti_sugo:
+        print("prepara il sugo")
+
+fai_la_pasta("Spaghetti", True)  #Argomento 
