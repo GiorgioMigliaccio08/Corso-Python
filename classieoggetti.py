@@ -68,3 +68,20 @@ def funzione():
 x = funzione()
 
 print(x)
+
+# MODULI un file python contenete funzioni che vogliamo includere nel nostro programma
+
+import miomodulo # se io dopo di questo metto un alias (ovvero un diminuitivo)
+# import miomodulo as em da questo momento richiamo mio modulo con l'alias em 
+# Altri alias : platform , math 
+
+miomodulo.saluta("Giorgio")
+
+z = miomodulo.persona1["nome"]
+
+miomodulo.saluta(z)
+
+# come importare una sola parte del nostro modulo 
+
+from miomodulo  import persona1
+print(persona1["nome"])
