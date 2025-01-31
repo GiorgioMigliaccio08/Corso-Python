@@ -53,3 +53,18 @@ insegnante1 = Insegnante("Anna", "Neri", "Matematica")
 print(insegnante1.materia)
 insegnante1.saluta()
 insegnante1.dai_voto()
+
+
+# SCOPE è quella porzione di codice in cui abbaiamo la disponibilità della variabile 
+
+# Scope Locale è quello dentro la funzione:
+# Scope Globale invece e tutto quello che sta al di fuori della funzione
+
+def funzione():
+    x = 800
+    print(x)
+    return x 
+
+x = funzione()
+
+print(x)
