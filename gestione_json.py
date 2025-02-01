@@ -41,3 +41,24 @@ e = {
 r = json.dumps(e, indent=4 , separators=(".", "= "))  # Formattazione
 r = json.dumps(e, indent=4 , sort_keys=True)  # Ordinamento
 print(r)
+
+
+
+# PIP   packace manager (gestore di pacchetti in Python creati da altri come nmp)
+# un pacchetto e un modulo aggiuntivo che aggiunge funzionalità ai nostri programmi 
+
+# Comando d'istallazione:  python get-pip.py
+# verificare la versione: pip --version   oppure pip --V
+# sito per scaricare i pacchetti : https://pypi.org/
+
+# importiamo il pacchhetto camelcase dopo averlo scaricato dal terminale
+
+import camelcase
+
+t = camelcase.CamelCase()
+
+frase = "Ciao sono Giorgio"
+print (t.hump(frase))  # Ho fatto il CamelCase tutte le parole con la lettera maiuscola
+
+# per rimuovere un pacchetto scriviamo nel terminale : pip unistall camelcase (nome pacchetto)
+# per vedere tutti i pacchetti istalliti scrive nel terminale : pip list
