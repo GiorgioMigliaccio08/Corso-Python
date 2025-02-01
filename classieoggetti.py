@@ -135,3 +135,6 @@ print(j6)
 
 print (dir(math))   #questa riga di codice mi riporta tutti i metodi di math
 
+
+
+
