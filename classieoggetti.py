@@ -85,3 +85,21 @@ miomodulo.saluta(z)
 
 from miomodulo  import persona1
 print(persona1["nome"])
+
+
+# DATETIME
+
+import datetime
+
+data = datetime.datetime.now()
+
+print(data)
+
+datauno = datetime.datetime(2025, 1 , 2)
+
+print(datauno)
+
+# Ci sono diversi parametri di formattazione della data e si usano in questo modo:
+
+# print(data.strftime("%A"))
+
