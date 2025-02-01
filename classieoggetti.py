@@ -103,3 +103,35 @@ print(datauno)
 
 # print(data.strftime("%A"))
 
+
+# CLASSE MATH
+
+g = 3 + 5
+h = x + 7 
+i = ((x + h ) * 2 + 35)/ g
+
+j = abs(45)
+print(j)
+j1 = pow(4, 3)
+print(j1)
+j2 = min(4,9,89)
+print(j2)
+j3 = max(4,9,89)
+print(j3)
+
+import math
+
+j4 = math.sqrt(64)
+print(j4)
+
+j5 = math.ceil(64.80)  # Arrotonda pre eccesso
+print(j5)
+
+j6 = math.floor(64.90)  # Arrotonda pre difetto
+print(j6)
+
+j6 = math.pi   # pigreco
+print(j6)
+
+print (dir(math))   #questa riga di codice mi riporta tutti i metodi di math
+
