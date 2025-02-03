@@ -72,4 +72,11 @@ except:
     print("Ce stato un errore!!")
     #pass in alternativa!
 
-
+# Multiple exception :
+g = 5 
+try: 
+    print(g + "ciao")
+except NameError:
+    print("Ce stato un errore nel nome!")
+except:
+    print("Ce stato un errore generico!")   
