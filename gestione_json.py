@@ -62,3 +62,14 @@ print (t.hump(frase))  # Ho fatto il CamelCase tutte le parole con la lettera ma
 
 # per rimuovere un pacchetto scriviamo nel terminale : pip unistall camelcase (nome pacchetto)
 # per vedere tutti i pacchetti istalliti scrive nel terminale : pip list
+
+
+# TRY EXCEPT : try ci permette di testare un blocco di codice
+
+try: 
+    print(g)
+except:
+    print("Ce stato un errore!!")
+    #pass in alternativa!
+
+
