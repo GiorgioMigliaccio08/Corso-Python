@@ -80,3 +80,13 @@ except NameError:
     print("Ce stato un errore nel nome!")
 except:
     print("Ce stato un errore generico!")   
+
+#esempio con else
+g = 5 
+try: 
+    print(g )
+except NameError:
+    print("Ce stato un errore nel nome!")
+else:
+    print("nessuno problema nel codice!!")
+
