@@ -86,7 +86,24 @@ g = 5
 try: 
     print(g )
 except NameError:
-    print("Ce stato un errore nel nome!")
+    print("Ce stato un errore nel nome!") 
 else:
     print("nessuno problema nel codice!!")
+
+
+# Finnaly 
+g = 5 
+try: 
+    print(g )
+except NameError:
+    print("Ce stato un errore nel nome!") 
+finally:
+    print("Finito!!") # Finally serve a mandare a schermo qualcosa a preiscindere dal risultato!
+
+
+# raise/throw exception   come lanciare un exception 
+
+k = -1 
+if k < 0:
+    raise Exception("Numero minore di zero!!")
 
