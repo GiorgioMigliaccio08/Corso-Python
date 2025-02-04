@@ -124,6 +124,17 @@ else:
 
 peso = 65
 altezza = 176
-frase = "Ciao sono Giorgio e son o alto {} cm"  #Uso le parentesi {}
+età = 24 
+
+frase = "Ciao sono Giorgio e son o alto {:.3f} cm"  #Uso le parentesi {}
 
 print(frase.format(altezza))
+
+# multipli valori:
+frase = "Ciao sono Giorgio ho {0} anni , peso {1} e sono alto {2:.2f}"
+
+print (frase.format(età, peso , altezza))
+
+#indici nominali:
+frase = "Ciao sono Giorgio ho {età} anni , peso {peso} e sono alto {altezza}"
+print (frase.format(età=età, peso=peso , altezza=altezza))
