@@ -30,3 +30,4 @@ def aggiungi(param):
 
 while True:
     start()
+
