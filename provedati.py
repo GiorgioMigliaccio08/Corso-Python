@@ -120,3 +120,10 @@ else:
      print("Ho finito")
 
 
+# FORMATTAZIONE STRINGA
+
+peso = 65
+altezza = 176
+frase = "Ciao sono Giorgio e son o alto {} cm"  #Uso le parentesi {}
+
+print(frase.format(altezza))
