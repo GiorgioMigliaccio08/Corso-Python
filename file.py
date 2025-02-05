@@ -30,9 +30,16 @@ e = open("prova.txt", "w")   # dato che non lo trova lo cera in automatico
 
 # ELIMINARE UN FILE 
 
-import os
+#import os
 
-if os.path.exists("prova.txt"):
-    os.remove("prova.txt")
-else:
-    print("Il file non esiste!")
+#if os.path.exists("prova.txt"):
+    #os.remove("prova.txt")
+#else:
+    #print("Il file non esiste!")
+
+# Installazione e introduzione Python/MySQL
+
+# Installare XAMPP per poter usare anche php
+
+# COMANDO : pip install my-sql-connector-python
+
