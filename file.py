@@ -43,3 +43,8 @@ e = open("prova.txt", "w")   # dato che non lo trova lo cera in automatico
 
 # COMANDO : pip install my-sql-connector-python
 
+# Creare Db e Tabelle:
+
+#cursor = db.cursor()
+#cursor.execute("CREATE DATABASE pysql")
+#cursor.execute("SHOW DATABASE")    PER VEDERE TUTTI I DATABASE
