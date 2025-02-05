@@ -48,3 +48,6 @@ e = open("prova.txt", "w")   # dato che non lo trova lo cera in automatico
 #cursor = db.cursor()
 #cursor.execute("CREATE DATABASE pysql")
 #cursor.execute("SHOW DATABASE")    PER VEDERE TUTTI I DATABASE
+
+#corsor = db.cursor()
+#cursor.execute("create table clienti (id INT _AUTO_INCREMENET PRIMARY KEY, nome VARCHAR (255))")
